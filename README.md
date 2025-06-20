@@ -12,6 +12,9 @@ This document is the design specification of FSAEJ EV Testbed (FET).
   - [Interfaces](#interfaces)
   - [Testing and Validation](#testing-and-validation)
   - [Appendices](#appendices)
+    - [1. Glossary](#1-glossary)
+    - [2. References](#2-references)
+    - [3. Revision History](#3-revision-history)
 
 
 ## Overview
@@ -38,5 +41,9 @@ The FSAEJ EV Testbed (FET) is a FSAEJ regulation-compliant electrical system des
 
 
 ## Appendices
-
-
+### 1. Glossary
+### 2. References
+### 3. Revision History
+| Version | Date | Author    | Notes            |
+| ------- | ---- | --------- | ---------------- |
+| 1.0     |      | ST04-tkmr | Initial Revision |
