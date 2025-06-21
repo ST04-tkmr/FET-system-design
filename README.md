@@ -8,6 +8,11 @@ This document is the design specification of FSAEJ EV Testbed (FET).
   - [Overview](#overview)
     - [1. Purpose](#1-purpose)
   - [System Requirements](#system-requirements)
+    - [1. Regulatory Requirements](#1-regulatory-requirements)
+    - [2. Functional Requirements](#2-functional-requirements)
+    - [3. Non-Functional Requirements](#3-non-functional-requirements)
+    - [4. User Interface Requirements](#4-user-interface-requirements)
+    - [5. Documentetion / Training Requirements](#5-documentetion--training-requirements)
   - [Architecture](#architecture)
   - [Interfaces](#interfaces)
   - [Testing and Validation](#testing-and-validation)
@@ -18,8 +23,10 @@ This document is the design specification of FSAEJ EV Testbed (FET).
 
 
 ## Overview
-The FSAEJ EV Testbed (FET) is a compact electrical system tha replicates key elements of a FSAEJ Electric Vehicle.  
-It is designed to support education, off-vehicle testing and system development with FSAEJ regulations.
+The FSAEJ EV Testbed (FET) is a compact electrical system that replicates key elements of a FSAEJ Electric Vehicle.  
+It is designed to support education, off-vehicle testing and system development with FSAEJ regulations.  
+> [!NOTE]
+> Some systems such as the accumulator are excluded from this platform.
 
 ### 1. Purpose
 The FSAEJ EV Testbed (FET) is a FSAEJ regulation-compliant electrical system designed for:
@@ -29,6 +36,31 @@ The FSAEJ EV Testbed (FET) is a FSAEJ regulation-compliant electrical system des
 
 
 ## System Requirements
+### 1. Regulatory Requirements
+- 2025 Formula SAE Rules
+- 2025 Formula SAE Japan Local Rules
+
+### 2. Functional Requirements
+- Simulate the startup/shutdown sequence as per FSAE regulations
+- Allow observation and simulation of key sensor inputs and system flags
+- Enable Electrical Technical Inspection sequence
+- Provide clear indication of system state and fault conditions
+
+### 3. Non-Functional Requirements
+- **Safety**: Safe to operate in a classroom or lab environment; includes visible fault indicators
+- **Portability**: Compact and lightweight; suitable for demonstrations and training
+- **Maintainability**: Easy to debug, modify and repair
+- **Expandability**: Modular interfaces for new sensor modules or ECU versions
+
+### 4. User Interface Requirements
+- Serial CLI or optional GUI interface for diagnostics and simulation
+- LEDs and switches for visual/tactile status and input simulation
+- Cockpit elements such as pedals and switches should be replicated to allow realistic vehicle-like operation
+
+### 5. Documentetion / Training Requirements
+- Clear schematics and system diagrams
+- Step-by-step user manual and testing procedures
+- Training materials for new members
 
 
 ## Architecture
