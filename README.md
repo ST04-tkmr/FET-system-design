@@ -14,6 +14,11 @@ This document is the design specification of FSAEJ EV Testbed (FET).
     - [4. User Interface Requirements](#4-user-interface-requirements)
     - [5. Documentetion / Training Requirements](#5-documentetion--training-requirements)
   - [Architecture](#architecture)
+    - [1. Overall](#1-overall)
+    - [2. Tractive System](#2-tractive-system)
+    - [3. Shutdown System](#3-shutdown-system)
+    - [4. GLV Power Supply System](#4-glv-power-supply-system)
+    - [5. GLV System](#5-glv-system)
   - [Interfaces](#interfaces)
   - [Testing and Validation](#testing-and-validation)
   - [Appendices](#appendices)
@@ -64,6 +69,19 @@ The FSAEJ EV Testbed (FET) is a FSAEJ regulation-compliant electrical system des
 
 
 ## Architecture
+### 1. Overall
+![overall-bd](/overall/overall-block-diagram_v1.0_20250630.png)
+
+### 2. Tractive System
+![ts-bd](/ts/ts-block-diagram_v1.0_20250630.png)
+
+### 3. Shutdown System
+![sdn-sch](/sdn/sdn-sch_v1.0_20250630.png)
+
+### 4. GLV Power Supply System
+![glv-pwr-bd](/glv_pwr/glv-pwr-sch_v1.0_20250630.png)
+
+### 5. GLV System
 
 
 ## Interfaces
